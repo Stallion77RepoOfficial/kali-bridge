@@ -6,7 +6,7 @@ running commands, driving interactive shells, and reading/writing files.
 
 Configure with env vars or CLI flags:
     KALI_BRIDGE_HOST (default 127.0.0.1)
-    KALI_BRIDGE_PORT (default 4444)
+    KALI_BRIDGE_PORT (default 1616)
 """
 
 import argparse
@@ -35,7 +35,7 @@ CONNECT_TIMEOUT = 10.0
 IO_MARGIN = 30.0
 
 HOST = os.environ.get("KALI_BRIDGE_HOST", "127.0.0.1")
-PORT = int(os.environ.get("KALI_BRIDGE_PORT", "4444"))
+PORT = int(os.environ.get("KALI_BRIDGE_PORT", "1616"))
 
 
 def log(message: str) -> None:

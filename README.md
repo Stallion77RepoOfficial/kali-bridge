@@ -8,7 +8,7 @@ file transfers, and HTTP requests from Kali.
 
 ## Requirements
 
-- Codex
+- Codex or Claude Code 
 - A reachable Kali Linux machine with Python 3 and SSH enabled
 - SSH access as a normal user or root
 

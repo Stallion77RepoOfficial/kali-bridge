@@ -1262,7 +1262,7 @@ def main():
     parser = argparse.ArgumentParser(description="kali-bridge agent v2")
     parser.add_argument("--listen", default="127.0.0.1",
                         help="bind address (default 127.0.0.1)")
-    parser.add_argument("--port", type=int, default=4444)
+    parser.add_argument("--port", type=int, default=1616)
     parser.add_argument("--max-payload", type=int, default=DEFAULT_MAX_PAYLOAD,
                         help="max bytes per frame payload")
     parser.add_argument("--buffer-cap", type=int, default=DEFAULT_BUFFER_CAP,
